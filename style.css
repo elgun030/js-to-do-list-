@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Pacifico&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: "Orbitron", sans-serif;
+}
+  
+  .item-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  #itemList, #cartItems {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+  }
+  
+  #itemList li, #cartItems li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #itemList li button, #cartItems li button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  #total {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  button.remove-btn {
+    background-color: red;
+    color: white;
+}
